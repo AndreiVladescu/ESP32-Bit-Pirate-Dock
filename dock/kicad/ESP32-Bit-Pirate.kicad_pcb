@@ -2512,7 +2512,7 @@
 		)
 		(path "/1d7fab69-5f31-4574-9c2d-67c10380bdf8")
 		(sheetname "/")
-		(sheetfile "ESP32-Bus-Pirate-Dock.kicad_sch")
+		(sheetfile "ESP32-Bit-Pirate.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3418,7 +3418,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/96edf0d3-92d7-4b80-9d1f-52cfad8d684c")
 		(sheetname "/")
-		(sheetfile "ESP32-Bus-Pirate-Dock.kicad_sch")
+		(sheetfile "ESP32-Bit-Pirate.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3631,7 +3631,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/7fc2bd48-9e1a-4ed5-a5bc-80117cb20588")
 		(sheetname "/")
-		(sheetfile "ESP32-Bus-Pirate-Dock.kicad_sch")
+		(sheetfile "ESP32-Bit-Pirate.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4229,7 +4229,7 @@
 		)
 		(path "/be82d4b3-1bea-4155-8947-574fddbe9d63")
 		(sheetname "/")
-		(sheetfile "ESP32-Bus-Pirate-Dock.kicad_sch")
+		(sheetfile "ESP32-Bit-Pirate.kicad_sch")
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4697,7 +4697,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/2ef57c45-481b-4448-989f-98daeb6fa9d5")
 		(sheetname "/")
-		(sheetfile "ESP32-Bus-Pirate-Dock.kicad_sch")
+		(sheetfile "ESP32-Bit-Pirate.kicad_sch")
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5423,7 +5423,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/50e36416-c95c-490d-9129-2ebe1071d53b")
 		(sheetname "/")
-		(sheetfile "ESP32-Bus-Pirate-Dock.kicad_sch")
+		(sheetfile "ESP32-Bit-Pirate.kicad_sch")
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5912,7 +5912,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/09c9b0c2-ba3a-42e7-878b-f4e7e47e6aa1")
 		(sheetname "/")
-		(sheetfile "ESP32-Bus-Pirate-Dock.kicad_sch")
+		(sheetfile "ESP32-Bit-Pirate.kicad_sch")
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6388,7 +6388,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/edecbaa7-0b4b-4320-b538-c0d875582d44")
 		(sheetname "/")
-		(sheetfile "ESP32-Bus-Pirate-Dock.kicad_sch")
+		(sheetfile "ESP32-Bit-Pirate.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6744,7 +6744,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/084b7802-75e3-4a8e-b8de-4e817ff40943")
 		(sheetname "/")
-		(sheetfile "ESP32-Bus-Pirate-Dock.kicad_sch")
+		(sheetfile "ESP32-Bit-Pirate.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7580,7 +7580,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -8444,7 +8444,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/db821897-9759-4d59-9f8d-921302755216")
 		(sheetname "/")
-		(sheetfile "ESP32-Bus-Pirate-Dock.kicad_sch")
+		(sheetfile "ESP32-Bit-Pirate.kicad_sch")
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11560,7 +11560,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/a145b518-c768-478f-a99b-a16ca831fee6")
 		(sheetname "/")
-		(sheetfile "ESP32-Bus-Pirate-Dock.kicad_sch")
+		(sheetfile "ESP32-Bit-Pirate.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -13140,13 +13140,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/Libraries/TA-3532S-A2/SW-SMD_8P-L13.0-W3.5-P2.00.step"
 			(offset
-				(xyz 0 -0 3.5)
+				(xyz 0 0 3.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 180)
+				(xyz 0 0 180)
 			)
 		)
 	)
@@ -13207,7 +13207,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/c2d493ab-978c-4760-ba88-59f386c45216")
 		(sheetname "/")
-		(sheetfile "ESP32-Bus-Pirate-Dock.kicad_sch")
+		(sheetfile "ESP32-Bit-Pirate.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -14400,7 +14400,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/0fb55f21-c873-4933-b8b9-257e2dfb3920")
 		(sheetname "/")
-		(sheetfile "ESP32-Bus-Pirate-Dock.kicad_sch")
+		(sheetfile "ESP32-Bit-Pirate.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -14529,7 +14529,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/410039d2-6477-43e9-9727-37ecd3156f20")
 		(sheetname "/")
-		(sheetfile "ESP32-Bus-Pirate-Dock.kicad_sch")
+		(sheetfile "ESP32-Bit-Pirate.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14744,7 +14744,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/84b2b9cd-cf47-4cad-917c-b9807b82eeb3")
 		(sheetname "/")
-		(sheetfile "ESP32-Bus-Pirate-Dock.kicad_sch")
+		(sheetfile "ESP32-Bit-Pirate.kicad_sch")
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15232,7 +15232,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8df93f80-3457-47e6-839e-6f96e5731f8d")
 		(sheetname "/")
-		(sheetfile "ESP32-Bus-Pirate-Dock.kicad_sch")
+		(sheetfile "ESP32-Bit-Pirate.kicad_sch")
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15812,7 +15812,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/b93fc8f0-3b91-4a34-9bd6-b4d51a47240b")
 		(sheetname "/")
-		(sheetfile "ESP32-Bus-Pirate-Dock.kicad_sch")
+		(sheetfile "ESP32-Bit-Pirate.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle

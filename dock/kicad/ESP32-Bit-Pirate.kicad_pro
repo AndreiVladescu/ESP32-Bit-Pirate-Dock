@@ -474,11 +474,14 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "ignore",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -501,6 +504,7 @@
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -514,7 +518,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ESP32-Bus-Pirate-Dock.kicad_pro",
+    "filename": "ESP32-Bit-Pirate.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -720,6 +724,10 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -919,6 +927,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -950,6 +959,7 @@
     },
     "page_layout_descr_file": "main",
     "plot_directory": "",
+    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -961,16 +971,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "ESP32-Bus-Pirate-Dock.kicad_sch",
-        "name": "ESP32-Bus-Pirate-Dock",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "filename": "ESP32-Bit-Pirate.kicad_sch",
+        "name": "ESP32-Bit-Pirate",
+        "uuid": "07b4bde2-66d8-4845-8f7d-da280a4d29f6"
       }
-    ]
+    ],
+    "used_designators": "",
+    "variants": []
   },
   "sheets": [
     [
       "07b4bde2-66d8-4845-8f7d-da280a4d29f6",
-      "Root"
+      "ESP32-Bit-Pirate"
     ],
     [
       "4e83f8d5-a547-42b8-8426-b71a9f8b331b",
