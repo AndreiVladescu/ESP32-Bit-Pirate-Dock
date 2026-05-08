@@ -1,12 +1,12 @@
-# ESP32-Bus-Pirate-Dock
+# ESP32-Bit-Pirate-Dock
 
-Open-source carrier board for the Espressif ESP32-S3 DevKit, designed to complement the [ESP32-Bus-Pirate](https://github.com/geo-tp/ESP32-Bus-Pirate) project.
+Open-source carrier board for the Espressif ESP32-S3 DevKit, designed to complement the [ESP32-Bit-Pirate](https://github.com/geo-tp/ESP32-Bit-Pirate) project.
 
 ## Overview
 
 ![PCB Top](images/certification-mark-RO000031-wide.svg)
 
-ESP32-Bus-Pirate-Dock is a hardware dock/carrier board for the ESP32-S3 DevKit. It provides level and voltage translation between the 3.3V ESP32-S3 and external peripherals, with support for 1.8V, 3.3V, and 5V operation.
+ESP32-Bit-Pirate-Dock is a hardware dock/carrier board for the ESP32-S3 DevKit. It provides level and voltage translation between the 3.3V ESP32-S3 and external peripherals, with support for 1.8V, 3.3V, and 5V operation.
 
 The design is intended to work with original ESP32-S3-DevKitC-1, as well as the wider devkit clones from third party suppliers.
 
@@ -77,7 +77,7 @@ The case for the ESP32 Bus Pirate Dock is still a work in progress. The current 
 a 0.4 nozzle.
 
 ![Case 3D Model](images/3d_model.png)
-![Dock Assembly](https://raw.githubusercontent.com/AndreiVladescu/ESP32-Bus-Pirate-Dock/refs/heads/main/images/assembly.gif)
+![Dock Assembly](https://raw.githubusercontent.com/AndreiVladescu/ESP32-Bit-Pirate-Dock/refs/heads/main/images/assembly.gif)
 
 ## License
 
