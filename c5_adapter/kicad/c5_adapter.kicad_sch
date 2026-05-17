@@ -2342,265 +2342,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_DPDT_x2"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_DPDT_x2"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Switch, dual pole double throw, separate symbols"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SW*DPDT*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_DPDT_x2_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DPDT_x2_0_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.5748 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DPDT_x2_1_1"
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_DPDT_x2_2_1"
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -3312,10 +3053,6 @@
 		(uuid "6c7af978-19f7-4139-9796-b6e9da83dd0c")
 	)
 	(no_connect
-		(at 125.73 48.26)
-		(uuid "739a791b-f986-425b-aa1a-9f1b00ee8029")
-	)
-	(no_connect
 		(at 234.315 111.125)
 		(uuid "745a69ba-d5bf-4d5f-a416-7eb23f3aeee3")
 	)
@@ -3589,16 +3326,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 43.18) (xy 125.73 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40e8c67b-42b5-4629-bf9e-30b94c9bd57e")
-	)
-	(wire
-		(pts
 			(xy 90.17 61.595) (xy 92.71 61.595)
 		)
 		(stroke
@@ -3686,16 +3413,6 @@
 			(type default)
 		)
 		(uuid "4e56d3b9-d7a0-41db-bd8f-d0209f2cdf28")
-	)
-	(wire
-		(pts
-			(xy 137.16 45.72) (xy 135.89 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ec2cf91-3dc5-4cc8-abcc-3e7c51a0a6db")
 	)
 	(wire
 		(pts
@@ -5190,111 +4907,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DPDT_x2")
-		(at 130.81 45.72 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b472f1a-273a-4947-b7b4-17000318d375")
-		(property "Reference" "SW1"
-			(at 130.81 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DPDT_x2"
-			(at 130.81 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 130.81 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "62fbad6d-0301-483c-bc69-26b511fae167")
-		)
-		(pin "1"
-			(uuid "0bc090e3-a7ca-43c6-a57d-180b9bc64da1")
-		)
-		(pin "2"
-			(uuid "c1952ba2-dede-48b6-989e-42dcb80a0b37")
-		)
-		(pin "3"
-			(uuid "a9aa4eea-99a9-421a-8fcc-91ee4e5a379e")
-		)
-		(pin "4"
-			(uuid "e8b253f1-a061-44d4-b5b4-595a9bd64c3b")
-		)
-		(pin "5"
-			(uuid "079ce1f3-5137-4169-8b39-cdcdd1d0c1df")
-		)
-		(instances
-			(project "c5_adapter"
-				(path "/4ea9e048-096c-4569-98b9-ff311a85c85d"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x10")
 		(at 67.945 94.615 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "72d8c0b0-9cf4-4e5f-b393-43864d29bfcf")
 		(property "Reference" "J2"
-			(at 66.675 79.375 0)
+			(at 69.215 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5306,6 +4931,7 @@
 		)
 		(property "Value" "Conn_01x10"
 			(at 75.565 81.915 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5315,7 +4941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
 			(at 67.945 94.615 0)
 			(hide yes)
 			(show_name no)
@@ -6625,7 +6251,7 @@
 		(dnp no)
 		(uuid "e0d9857d-a581-46cd-88d9-9261ed78da2b")
 		(property "Reference" "J1"
-			(at 60.325 79.375 0)
+			(at 60.325 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6637,6 +6263,7 @@
 		)
 		(property "Value" "Conn_01x10"
 			(at 60.325 81.915 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6646,7 +6273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pinheader-reduced:PinHeader_1x10_P2.54mm_Vertical_Reduced_2"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Horizontal"
 			(at 59.055 94.615 0)
 			(hide yes)
 			(show_name no)
