@@ -4500,7 +4500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c9192d5-a784-4b0f-bac7-60520e818c72")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR05"
 			(at 82.55 60.325 0)
 			(hide yes)
 			(show_name no)
@@ -4561,7 +4561,7 @@
 		(instances
 			(project "c5_adapter"
 				(path "/4ea9e048-096c-4569-98b9-ff311a85c85d"
-					(reference "#PWR011")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4658,7 +4658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a4f55a0-7f09-4b7f-88e0-f13bf9a31ae0")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 82.55 175.895 0)
 			(hide yes)
 			(show_name no)
@@ -4719,7 +4719,7 @@
 		(instances
 			(project "c5_adapter"
 				(path "/4ea9e048-096c-4569-98b9-ff311a85c85d"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4737,7 +4737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3100c743-f142-46c6-9c3b-125a2ad87615")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR08"
 			(at 154.305 106.045 0)
 			(hide yes)
 			(show_name no)
@@ -4798,7 +4798,7 @@
 		(instances
 			(project "c5_adapter"
 				(path "/4ea9e048-096c-4569-98b9-ff311a85c85d"
-					(reference "#PWR04")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4815,7 +4815,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33f6f8a0-b71a-4e95-b3ec-07a09628f20c")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 230.505 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4922,7 +4922,7 @@
 		(instances
 			(project "c5_adapter"
 				(path "/4ea9e048-096c-4569-98b9-ff311a85c85d"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5294,7 +5294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b909b8d-dc63-4986-b189-76ce562adca4")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR010"
 			(at 250.825 73.025 0)
 			(hide yes)
 			(show_name no)
@@ -5355,7 +5355,7 @@
 		(instances
 			(project "c5_adapter"
 				(path "/4ea9e048-096c-4569-98b9-ff311a85c85d"
-					(reference "#PWR06")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5498,7 +5498,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9aeac7dd-c8bd-4686-ba28-2d5b27bb6470")
-		(property "Reference" "J6"
+		(property "Reference" "J3"
 			(at 157.48 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5605,7 +5605,7 @@
 		(instances
 			(project "c5_adapter"
 				(path "/4ea9e048-096c-4569-98b9-ff311a85c85d"
-					(reference "J6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5623,7 +5623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a182095e-b91f-47bd-a5a7-a78b78eb0dee")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR07"
 			(at 153.67 73.025 0)
 			(hide yes)
 			(show_name no)
@@ -5684,7 +5684,7 @@
 		(instances
 			(project "c5_adapter"
 				(path "/4ea9e048-096c-4569-98b9-ff311a85c85d"
-					(reference "#PWR03")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5702,7 +5702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afe26c54-d43d-4e34-96cf-3f06f0a2c375")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR06"
 			(at 94.615 51.435 0)
 			(hide yes)
 			(show_name no)
@@ -5763,7 +5763,7 @@
 		(instances
 			(project "c5_adapter"
 				(path "/4ea9e048-096c-4569-98b9-ff311a85c85d"
-					(reference "#PWR010")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5860,7 +5860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb4b3de7-6fcd-433e-9fc1-46a9e52882da")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR012"
 			(at 250.825 108.585 0)
 			(hide yes)
 			(show_name no)
@@ -5921,7 +5921,7 @@
 		(instances
 			(project "c5_adapter"
 				(path "/4ea9e048-096c-4569-98b9-ff311a85c85d"
-					(reference "#PWR08")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5939,7 +5939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd683822-ef18-4f45-b78b-44e9178c1043")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 104.14 50.1649 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6051,7 +6051,7 @@
 		(instances
 			(project "c5_adapter"
 				(path "/4ea9e048-096c-4569-98b9-ff311a85c85d"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -6068,7 +6068,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5d742a5-6df2-4cd0-a8b3-b4733bfb271d")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 238.125 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6175,7 +6175,7 @@
 		(instances
 			(project "c5_adapter"
 				(path "/4ea9e048-096c-4569-98b9-ff311a85c85d"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -6193,7 +6193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd031d96-2ded-4d44-a1b2-56700d017ab4")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR04"
 			(at 82.55 42.545 0)
 			(hide yes)
 			(show_name no)
@@ -6254,7 +6254,7 @@
 		(instances
 			(project "c5_adapter"
 				(path "/4ea9e048-096c-4569-98b9-ff311a85c85d"
-					(reference "#PWR013")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6379,7 +6379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0056daa-4ca4-45cc-adc0-3e03e119e380")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR02"
 			(at 79.375 107.315 0)
 			(hide yes)
 			(show_name no)
@@ -6440,7 +6440,7 @@
 		(instances
 			(project "c5_adapter"
 				(path "/4ea9e048-096c-4569-98b9-ff311a85c85d"
-					(reference "#PWR09")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6458,7 +6458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f371968c-4741-4485-9d7c-c538e7d97e29")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR09"
 			(at 144.145 108.585 0)
 			(hide yes)
 			(show_name no)
@@ -6519,7 +6519,7 @@
 		(instances
 			(project "c5_adapter"
 				(path "/4ea9e048-096c-4569-98b9-ff311a85c85d"
-					(reference "#PWR05")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6537,7 +6537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f536b11f-5254-43d8-b29b-6c7ca748a325")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR011"
 			(at 250.825 100.965 0)
 			(hide yes)
 			(show_name no)
@@ -6598,7 +6598,7 @@
 		(instances
 			(project "c5_adapter"
 				(path "/4ea9e048-096c-4569-98b9-ff311a85c85d"
-					(reference "#PWR07")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
