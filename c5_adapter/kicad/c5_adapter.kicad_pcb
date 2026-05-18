@@ -5168,6 +5168,26 @@
 		(uuid "4d33f002-fa00-4ff2-9db2-ef18c394664e")
 	)
 	(gr_line
+		(start 173.8 86.5)
+		(end 179.5 86.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f601abc4-6150-4451-9d5b-19ddc2cc9b60")
+	)
+	(gr_line
+		(start 173.9 113.9)
+		(end 179.5 113.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "41d2aef5-cc10-410e-a9fb-16556299007f")
+	)
+	(gr_line
 		(start 175.1 78.970322)
 		(end 220.950486 78.970322)
 		(stroke
@@ -5187,6 +5207,26 @@
 		)
 		(layer "F.SilkS")
 		(uuid "a0b50fb4-d8f6-4e3f-9662-c74784c6dd3f")
+	)
+	(gr_line
+		(start 179.5 86.5)
+		(end 179.5 90.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f82095aa-0943-4d33-bd33-53ad21c3d28a")
+	)
+	(gr_line
+		(start 179.5 111.2)
+		(end 179.5 113.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "28437d5a-8f76-451d-b1ed-ecb9756d83e6")
 	)
 	(gr_arc
 		(start 220.950486 78.970322)
@@ -5326,7 +5366,7 @@
 		)
 	)
 	(gr_text "VIO\n\nRST\n\nBOOT\n\nU0TX\n\nU0RX\n\nIO6\n\nIO8\n\nIO9\n\nIO10\n\nGND"
-		(at 176.6 112.3 0)
+		(at 176.2 112.3 0)
 		(layer "F.SilkS" knockout)
 		(uuid "b1192905-47ca-438f-94ac-0a68ca400f8a")
 		(effects
