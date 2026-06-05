@@ -73,8 +73,7 @@ To source components, use `dock/BOM.csv`.
 
 ## Case Design
 
-The case for the ESP32 Bus Pirate Dock is still a work in progress. The current design uses two pieces, which can be printed using an FDM printer with
-a 0.4 nozzle.
+The current design uses two pieces, which can be printed using an FDM printer with a 0.4 nozzle.
 
 ![Case 3D Model](images/3d_model.png)
 ![Dock Assembly](https://raw.githubusercontent.com/AndreiVladescu/ESP32-Bit-Pirate-Dock/refs/heads/main/images/assembly.gif)
