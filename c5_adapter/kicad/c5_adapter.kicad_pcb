@@ -5388,10 +5388,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "VIO\n\nRST\n\nBOOT\n\nU0TX\n\nU0RX\n\nIO6\n\nIO8\n\nIO9\n\nIO10\n\nGND"
-		(at 176.2 112.3 0)
+	(gr_text "GND\n\nIO10\n\nIO9\n\nIO8\n\nIO6\n\nU0RX\n\nU0TX\n\nBOOT\n\nRST\n\nVIO"
+		(at 179.6 88.1 180)
 		(layer "F.SilkS" knockout)
-		(uuid "b1192905-47ca-438f-94ac-0a68ca400f8a")
+		(uuid "2018c5cd-7d68-4a45-9cc7-7186cc584855")
 		(effects
 			(font
 				(size 0.8 0.8)
