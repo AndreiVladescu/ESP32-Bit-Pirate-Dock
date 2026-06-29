@@ -2,7 +2,9 @@
 
 # ESP32-Bit-Pirate-Dock
 
-[![ESP32 Bit Pirate ecosystem banner](https://raw.githubusercontent.com/geo-tp/ESP32-Bit-Pirate/pioarduino/images/logo_protocols_banner_small.png)](https://github.com/geo-tp/ESP32-Bit-Pirate)
+<a href="https://github.com/geo-tp/ESP32-Bit-Pirate">
+  <img src="https://raw.githubusercontent.com/geo-tp/ESP32-Bit-Pirate/pioarduino/images/logo_protocols_banner_small.png" width="75%" alt="ESP32 Bit Pirate ecosystem banner" />
+</a>
 
 </div>
 
@@ -12,8 +14,7 @@ It provides level and voltage translation between the 3.3V ESP32-S3 and external
 
 <div align="center">
 
-[![Front Rendering](images/render.png)](images/render.png)
-[![Back Rendering](images/render_back.png)](images/render_back.png)
+<img src="images/closeup.jpeg" width="75%" alt="Closeup" />
 
 </div>
 
@@ -23,7 +24,9 @@ A big thank you to [**PCBWay**](https://www.pcbway.com/) for sponsoring and manu
 
 <div align="center">
 
-[![PCBs manufactured by PCBWay](https://hackster.imgix.net/uploads/attachments/1964686/image-asset_Yh536q7KjK.png?auto=compress%2Cformat&w=740&h=555&fit=max)](https://www.pcbway.com/)
+<a href="https://www.pcbway.com/">
+  <img src="https://hackster.imgix.net/uploads/attachments/1964686/image-asset_Yh536q7KjK.png?auto=compress%2Cformat&w=740&h=555&fit=max" width="65%" alt="PCBs manufactured by PCBWay" />
+</a>
 
 </div>
 
@@ -64,7 +67,7 @@ An example PCB with these markings would be `V3-2613-00512`, where:
 
 <div align="center">
 
-[![Certification mark RO000031](images/certification-mark-RO000031-wide.svg)](images/certification-mark-RO000031-wide.svg)
+<img src="images/certification-mark-RO000031-wide.svg" width="35%" alt="Certification mark RO000031" />
 
 </div>
 
@@ -119,7 +122,12 @@ These boards can be acquired through the official Espressif manufacturer and its
 
 <div align="center">
 
-[![PCB Top](images/pcb.png)](images/pcb.png)
+<img src="images/pcb.png" width="75%" alt="PCB Top" />
+
+<p>
+  <img src="images/render.png" width="48%" alt="Front Rendering" />
+  <img src="images/render_back.png" width="48%" alt="Back Rendering" />
+</p>
 
 </div>
 
@@ -135,9 +143,9 @@ The current design uses two pieces, which can be printed using an FDM printer wi
 
 <div align="center">
 
-[![Case 3D Model](images/3d_model.png)](images/3d_model.png)
+<img src="images/3d_model.png" width="65%" alt="Case 3D Model" />
 
-![Dock Assembly](https://raw.githubusercontent.com/AndreiVladescu/ESP32-Bit-Pirate-Dock/refs/heads/main/images/assembly.gif)
+<img src="https://raw.githubusercontent.com/AndreiVladescu/ESP32-Bit-Pirate-Dock/refs/heads/main/images/assembly.gif" width="65%" alt="Dock Assembly" />
 
 </div>
 
