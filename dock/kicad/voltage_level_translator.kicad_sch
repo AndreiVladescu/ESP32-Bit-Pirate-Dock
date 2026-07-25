@@ -5,8 +5,9 @@
 	(uuid "517f358b-f25c-4935-b180-fd387b8c0816")
 	(paper "A4")
 	(title_block
-		(title "ESP32 Bit Pirate Dock")
+		(title "ESP32 Bus Pirate Dock")
 		(date "2025-09-21")
+		(company "ESP32 Bus Pirate Team")
 	)
 	(lib_symbols
 		(symbol "Analog_Switch:TMUX1574PW"
@@ -4891,6 +4892,20 @@
 		)
 		(uuid "eaffc0ad-94ca-446b-b54d-9d77c0a62519")
 	)
+	(text "Voltage Level Translators"
+		(exclude_from_sim no)
+		(at 210.185 172.72 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 3 3)
+				(thickness 0.254)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "0357f782-0e2b-4560-8011-568595b10f79")
+	)
 	(text "5V/3.3V Voltage Translator"
 		(exclude_from_sim no)
 		(at 34.036 22.098 0)
@@ -7841,7 +7856,7 @@
 			(justify left bottom)
 		)
 		(uuid "a8e69702-3355-4837-88e6-a8a3da5094a3")
-		(property "Net Class" "LEVEL_TRANSLATION"
+		(property "Netclass" "LEVEL_TRANSLATION"
 			(at 263.5885 104.648 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7875,7 +7890,7 @@
 			(justify left bottom)
 		)
 		(uuid "d1fffc29-6d46-4dc9-8c97-b616a13d4edf")
-		(property "Net Class" "PWR"
+		(property "Netclass" "PWR"
 			(at 163.068 108.712 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7910,7 +7925,7 @@
 			(justify left bottom)
 		)
 		(uuid "d8f74e52-467b-4378-a668-09609b5181f7")
-		(property "Net Class" "LEVEL_TRANSLATION"
+		(property "Netclass" "LEVEL_TRANSLATION"
 			(at 70.0405 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7945,7 +7960,7 @@
 			(justify left bottom)
 		)
 		(uuid "fbffa6d5-5fa3-4a23-8245-7c6251a581bb")
-		(property "Net Class" "LEVEL_TRANSLATION"
+		(property "Netclass" "LEVEL_TRANSLATION"
 			(at 263.5885 35.052 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8037,7 +8052,7 @@
 			(uuid "8112db37-27c4-4bfc-abb5-28af3e31cc8d")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR030")
 					(unit 1)
@@ -8121,7 +8136,7 @@
 			(uuid "73b8b7f0-233f-454b-91c4-03dccab95e26")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR055")
 					(unit 1)
@@ -8200,7 +8215,7 @@
 			(uuid "7b08d7e1-8062-4148-86ab-52013243dbdd")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR040")
 					(unit 1)
@@ -8283,7 +8298,7 @@
 			(uuid "9565fa64-bc9b-4cba-b1bb-b9f5118e8d97")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR060")
 					(unit 1)
@@ -8362,7 +8377,7 @@
 			(uuid "52ab18d8-8984-4821-9d2d-76abc496d557")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "R5")
 					(unit 1)
@@ -8440,7 +8455,7 @@
 			(uuid "6536a76b-a509-4ef2-8423-50ac75020440")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR057")
 					(unit 1)
@@ -8519,7 +8534,7 @@
 			(uuid "b04d0e66-8975-4eae-80bd-d68959e5f1ff")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR037")
 					(unit 1)
@@ -8603,7 +8618,7 @@
 			(uuid "56071308-7e81-4689-b95d-b6a8f2f93b6d")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR051")
 					(unit 1)
@@ -8686,7 +8701,7 @@
 			(uuid "8a6d1b0d-9558-4731-89f3-da2efaf3b7a6")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR059")
 					(unit 1)
@@ -8765,7 +8780,7 @@
 			(uuid "c03eb87e-7792-4bd5-9c20-1856ad5e5599")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "C4")
 					(unit 1)
@@ -8874,7 +8889,7 @@
 			(uuid "230ab20e-b95f-4e0b-aeac-8f1da89f4d77")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "SW1")
 					(unit 1)
@@ -8958,7 +8973,7 @@
 			(uuid "c28f7a04-43e8-485a-ae5f-56cc0e5c9be6")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "TP3")
 					(unit 1)
@@ -9037,7 +9052,7 @@
 			(uuid "4c1b4769-74eb-4584-9ef1-2a987516eb3c")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR028")
 					(unit 1)
@@ -9116,7 +9131,7 @@
 			(uuid "e44123ca-6a7a-4aae-a3a5-84aaeceb19bb")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "C5")
 					(unit 1)
@@ -9194,7 +9209,7 @@
 			(uuid "625f97e5-f345-4de4-9e70-b869864e1a8d")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR026")
 					(unit 1)
@@ -9272,7 +9287,7 @@
 			(uuid "0be88a40-ba0d-4eea-ab9c-d2515c464bc5")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR047")
 					(unit 1)
@@ -9357,7 +9372,7 @@
 			(uuid "9c0031ef-5c8f-42a9-ae94-a57e9e5246c5")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR029")
 					(unit 1)
@@ -9435,7 +9450,7 @@
 			(uuid "437ed41b-378c-4c47-b61e-833782e47566")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR033")
 					(unit 1)
@@ -9531,7 +9546,7 @@
 			(uuid "f98b89bd-2392-4bcb-8b17-7159b7843c9a")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "D2")
 					(unit 1)
@@ -9643,7 +9658,7 @@
 			(uuid "b14e018b-96d8-4dd6-bc18-b3baf75aafc7")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "J8")
 					(unit 1)
@@ -9722,7 +9737,7 @@
 			(uuid "889bb86e-3fbd-45b9-b4ab-467899f386ac")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR041")
 					(unit 1)
@@ -9807,7 +9822,7 @@
 			(uuid "dac6a9a1-2049-4032-959f-4779445b06f8")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR043")
 					(unit 1)
@@ -9949,7 +9964,7 @@
 			(uuid "1f7e93a5-ec34-44ed-a7ae-d50196602efa")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "U5")
 					(unit 1)
@@ -10034,7 +10049,7 @@
 			(uuid "1c7a2d75-9177-4693-b0cf-e5e9cd3be29d")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR039")
 					(unit 1)
@@ -10121,7 +10136,7 @@
 			(uuid "2d1e1b93-15c9-4bce-9b51-144f131ff669")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "R2")
 					(unit 1)
@@ -10263,7 +10278,7 @@
 			(uuid "307b72e3-36f4-4abd-8ef0-4424e7b7d978")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "U4")
 					(unit 1)
@@ -10347,7 +10362,7 @@
 			(uuid "a91689b9-ef25-401d-8660-b0e19a85f3fd")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR053")
 					(unit 1)
@@ -10431,7 +10446,7 @@
 			(uuid "08539e0a-b194-419b-ad8e-3494510d1cad")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR034")
 					(unit 1)
@@ -10516,7 +10531,7 @@
 			(uuid "0b14ab67-fc4e-4b30-82f4-8c7f4cf64524")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR038")
 					(unit 1)
@@ -10600,7 +10615,7 @@
 			(uuid "c80104ee-449d-411e-bc7c-58a3e5f45073")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR049")
 					(unit 1)
@@ -10760,7 +10775,7 @@
 			(uuid "abb7a2f2-8fba-4f7d-b0bb-606755c102b1")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "U3")
 					(unit 1)
@@ -10838,7 +10853,7 @@
 			(uuid "3f2354a7-06b9-4303-8682-7c2892ac6736")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR048")
 					(unit 1)
@@ -10922,7 +10937,7 @@
 			(uuid "dc88c386-c4e1-4f04-91f4-e0ac57d0f1b3")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR046")
 					(unit 1)
@@ -11006,7 +11021,7 @@
 			(uuid "495466cd-89e3-44ae-be78-3a9df37b8a16")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR052")
 					(unit 1)
@@ -11090,7 +11105,7 @@
 			(uuid "01c853b4-0b64-4587-adea-492d5e1765cf")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR045")
 					(unit 1)
@@ -11168,7 +11183,7 @@
 			(uuid "ff086597-1fb4-490a-a654-cab3e3d165cd")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "TP4")
 					(unit 1)
@@ -11292,7 +11307,7 @@
 			(uuid "7733566e-ef9b-41da-8f51-067d87dceca9")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "U7")
 					(unit 1)
@@ -11376,7 +11391,7 @@
 			(uuid "6c39b3e5-3266-45e4-afb2-ecc5b59cd416")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR031")
 					(unit 1)
@@ -11460,7 +11475,7 @@
 			(uuid "c189014a-8a99-440e-b069-150611ff8873")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "TP2")
 					(unit 1)
@@ -11538,7 +11553,7 @@
 			(uuid "6c39b3e5-3266-45e4-afb2-ecc5b59cd417")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR023")
 					(unit 1)
@@ -11619,7 +11634,7 @@
 			(uuid "fdbc6f07-70ed-45f6-97bf-a5ef11d416f4")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "R3")
 					(unit 1)
@@ -11704,7 +11719,7 @@
 			(uuid "421e1090-6e7e-4b99-8b7f-b6f1a2a2a1ee")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "C6")
 					(unit 1)
@@ -11781,7 +11796,7 @@
 			(uuid "8112db37-27c4-4bfc-abb5-28af3e31cc8e")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR025")
 					(unit 1)
@@ -11859,7 +11874,7 @@
 			(uuid "aeffce0e-a8c4-4461-84fe-a44c85bacd38")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR050")
 					(unit 1)
@@ -11989,7 +12004,7 @@
 			(uuid "edad41c6-e354-45be-9735-065f551ffab3")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "U6")
 					(unit 1)
@@ -12082,7 +12097,7 @@
 			(uuid "032b472f-b898-4575-9307-74585c20d72c")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "Q1")
 					(unit 1)
@@ -12161,7 +12176,7 @@
 			(uuid "51d32567-ea96-4683-8a6f-8faa6e7cd13a")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR044")
 					(unit 1)
@@ -12251,7 +12266,7 @@
 			(uuid "c55f80f0-7de0-4ee3-8d46-563bb6a48940")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "D1")
 					(unit 1)
@@ -12334,7 +12349,7 @@
 			(uuid "00e98bcc-b38f-455e-9300-95c65beb7ab1")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR054")
 					(unit 1)
@@ -12412,7 +12427,7 @@
 			(uuid "da076142-0c3e-4949-83fc-acdd0a749d92")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "TP5")
 					(unit 1)
@@ -12493,7 +12508,7 @@
 			(uuid "fa7851b1-81ff-441c-b684-35611d48edbc")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "R4")
 					(unit 1)
@@ -12577,7 +12592,7 @@
 			(uuid "d0dd65eb-3c6e-4645-b169-02a020a6187c")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR061")
 					(unit 1)
@@ -12656,7 +12671,7 @@
 			(uuid "60e6623e-f54c-4198-b1d7-e1c6b1d37a63")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "C8")
 					(unit 1)
@@ -12752,7 +12767,7 @@
 			(uuid "dbb0e2bb-ab64-4570-b914-f15ed3410160")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "D3")
 					(unit 1)
@@ -12839,7 +12854,7 @@
 			(uuid "6dd7ef07-2c3b-45db-9197-cf73d884d53e")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "R1")
 					(unit 1)
@@ -12924,7 +12939,7 @@
 			(uuid "c03eb87e-7792-4bd5-9c20-1856ad5e559a")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "C9")
 					(unit 1)
@@ -13008,7 +13023,7 @@
 			(uuid "eb358bef-c7de-461d-b768-67db4782d7da")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR024")
 					(unit 1)
@@ -13087,7 +13102,7 @@
 			(uuid "6b309a12-10ac-4677-9bfd-9f31fc14df0c")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR032")
 					(unit 1)
@@ -13166,7 +13181,7 @@
 			(uuid "fd6e8ec8-f01f-4221-8692-436cec0195e7")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "C7")
 					(unit 1)
@@ -13244,7 +13259,7 @@
 			(uuid "91e14b58-2648-4772-8a18-b10249ba3f26")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "TP7")
 					(unit 1)
@@ -13323,7 +13338,7 @@
 			(uuid "b18f65dd-0bb5-40f6-8b42-8e846834bd68")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR042")
 					(unit 1)
@@ -13407,7 +13422,7 @@
 			(uuid "c166b0be-f3cb-47ff-8c36-afaa05ccf60f")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "TP1")
 					(unit 1)
@@ -13484,7 +13499,7 @@
 			(uuid "222bd0c0-58a3-41f3-ae7f-041c0fc3752b")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR035")
 					(unit 1)
@@ -13562,7 +13577,7 @@
 			(uuid "af0898c1-31b1-429e-96b1-efe1cd88787c")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR027")
 					(unit 1)
@@ -13640,7 +13655,7 @@
 			(uuid "357e000d-9b15-4ac8-aae1-e751462f21b8")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "TP6")
 					(unit 1)
@@ -13719,7 +13734,7 @@
 			(uuid "8652a027-58f3-4c39-a6e7-544f80e69964")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR036")
 					(unit 1)
@@ -13802,7 +13817,7 @@
 			(uuid "bea99f76-ffd9-40bc-ac62-eb607a9fa99a")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR058")
 					(unit 1)
@@ -13880,7 +13895,7 @@
 			(uuid "c3b9f44e-822c-48d7-bebd-1fa4a191711b")
 		)
 		(instances
-			(project "ESP32-Bit-Pirate"
+			(project "ESP32-Bit-Pirate-Dock.kicad_pro"
 				(path "/07b4bde2-66d8-4845-8f7d-da280a4d29f6/4e83f8d5-a547-42b8-8426-b71a9f8b331b"
 					(reference "#PWR056")
 					(unit 1)
@@ -13893,5 +13908,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
