@@ -20,7 +20,7 @@ It provides level and voltage translation between the 3.3V ESP32-S3 and external
 
 ## 🙏 Thanks to PCBWay
 
-A big thank you to [**PCBWay**](https://www.pcbway.com/) for sponsoring and manufacturing the PCBs for this project. Their high-quality fabrication and assembly made bringing this dock to life possible.
+A big thank you to [**PCBWay**](https://www.pcbway.com/) for sponsoring and manufacturing the PCBs for this project. Their high-quality fabrication and assembly made bringing this dock to life possible. You can buy the Dock [here](https://www.pcbway.com/project/shareproject/ESP32_Bit_Pirate_Dock_ca02ded7.html) and support the project.
 
 <div align="center">
 
