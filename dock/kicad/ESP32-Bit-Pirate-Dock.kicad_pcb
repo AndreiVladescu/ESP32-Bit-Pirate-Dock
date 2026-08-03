@@ -9336,7 +9336,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "LOGO"
+	(footprint "ESP32-Bit-Pirate-Logo:ESP32-Bit-Pirate-Logo-Dock"
 		(layer "F.Cu")
 		(uuid "b2e6da04-fac2-4107-af5b-737fa1db07e9")
 		(at 76.5 136.5)
@@ -9352,7 +9352,7 @@
 				)
 			)
 		)
-		(property "Value" "LOGO"
+		(property "Value" "ESP32-Bit-Pirate-Logo-Dock"
 			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)

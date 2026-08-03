@@ -534,7 +534,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ESP32-Bit-Pirate-Dock.kicad_pro.kicad_pro",
+    "filename": "ESP32-Bit-Pirate-Dock.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -987,18 +987,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "ESP32-Bit-Pirate-Dock.kicad_pro.kicad_sch",
-        "name": "ESP32-Bit-Pirate-Dock.kicad_pro",
+        "filename": "ESP32-Bit-Pirate-Dock.kicad_sch",
+        "name": "ESP32-Bit-Pirate-Dock",
         "uuid": "07b4bde2-66d8-4845-8f7d-da280a4d29f6"
       }
     ],
-    "used_designators": "",
+    "used_designators": "G1",
     "variants": []
   },
   "sheets": [
     [
       "07b4bde2-66d8-4845-8f7d-da280a4d29f6",
-      "ESP32-Bit-Pirate-Dock.kicad_pro"
+      "ESP32-Bit-Pirate-Dock"
     ],
     [
       "4e83f8d5-a547-42b8-8426-b71a9f8b331b",

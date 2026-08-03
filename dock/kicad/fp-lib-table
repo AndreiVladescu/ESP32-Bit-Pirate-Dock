@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "TA-3532S-A2") (type "KiCad") (uri "${KIPRJMOD}/Libraries/TA-3532S-A2") (options "") (descr ""))
 	(lib (name "ESP32-S3-DEVKITC-1-N8R2") (type "KiCad") (uri "${KIPRJMOD}/Libraries/ESP32-S3-DEVKITC-1-N8R2") (options "") (descr ""))
+	(lib (name "ESP32-Bit-Pirate-Logo") (type "KiCad") (uri "${KIPRJMOD}/Libraries/ESP32-Bit-Pirate-Logo") (options "") (descr ""))
 )
