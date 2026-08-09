@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ESP32-Bit-Pirate-Logo") (type "KiCad") (uri "/home/admin-andrei/Documents/GitHub/ESP32-Bus-Pirate-Dock/dock/kicad/Libraries/ESP32-Bit-Pirate-Logo") (options "") (descr ""))
+	(lib (name "DS1044-160G") (type "KiCad") (uri "${KIPRJMOD}/Libraries/DS1044-160G") (options "") (descr ""))
+)
