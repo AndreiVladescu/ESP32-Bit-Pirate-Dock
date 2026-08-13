@@ -1,0 +1,4 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
+"G1","1","","","","","logo:logoBP",""
+"J1,J2","2","Conn_01x22","","","","Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical",""
+"J3,J4","2","Conn_01x12_Socket","","","","Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical",""
