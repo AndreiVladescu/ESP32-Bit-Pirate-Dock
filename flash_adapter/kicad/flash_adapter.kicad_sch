@@ -2222,6 +2222,16 @@
 	)
 	(wire
 		(pts
+			(xy 98.425 62.865) (xy 99.695 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f417cee-231d-4d9b-8c1d-4f091f52a46a")
+	)
+	(wire
+		(pts
 			(xy 91.44 164.465) (xy 92.71 164.465)
 		)
 		(stroke
@@ -2259,6 +2269,16 @@
 			(type default)
 		)
 		(uuid "aa0a9b23-87a4-429f-8b5a-144c507c52ad")
+	)
+	(wire
+		(pts
+			(xy 107.315 62.865) (xy 108.585 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab0565a6-2406-4526-aec7-1a5db696c14d")
 	)
 	(wire
 		(pts
@@ -2412,6 +2432,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 62.865) (xy 116.205 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb7beadb-2440-44f9-a3a2-20a145d6ae66")
+	)
+	(wire
+		(pts
 			(xy 175.26 76.2) (xy 176.53 76.2)
 		)
 		(stroke
@@ -2459,6 +2489,16 @@
 			(type default)
 		)
 		(uuid "f7ec4371-35f5-417a-9212-6c44cbec436b")
+	)
+	(wire
+		(pts
+			(xy 119.38 64.135) (xy 119.38 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f93d49cc-6d12-4fbe-ba26-8f2e71d3835f")
 	)
 	(global_label "VIO_{DOCK}"
 		(shape input)
@@ -2580,6 +2620,30 @@
 			)
 		)
 	)
+	(global_label "IO13"
+		(shape input)
+		(at 98.425 62.865 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0603e715-1171-4316-a204-59c9f6eddd5d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.0855 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "MISO"
 		(shape output)
 		(at 114.3 121.285 0)
@@ -2676,7 +2740,31 @@
 			)
 		)
 	)
-	(global_label "CS#1"
+	(global_label "IO13"
+		(shape input)
+		(at 114.3 103.505 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "293cb197-eb69-4d05-aca3-f81d0f9f2eca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.6395 103.505 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CS#2"
 		(shape input)
 		(at 114.3 116.205 0)
 		(fields_autoplaced yes)
@@ -2820,7 +2908,7 @@
 			)
 		)
 	)
-	(global_label "CS#2"
+	(global_label "CS#1"
 		(shape input)
 		(at 114.3 106.045 0)
 		(fields_autoplaced yes)
@@ -3916,6 +4004,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 112.395 62.865 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3c7b2dfb-9277-491d-a9b9-eec70879e249")
+		(property "Reference" "D4"
+			(at 112.395 66.675 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLUE"
+			(at 112.395 69.215 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 112.395 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 112.395 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 112.395 62.865 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b3b8f07-a68c-40e6-898c-b5652a0fe53f")
+		)
+		(pin "2"
+			(uuid "cc88cb23-b0ef-4639-891f-451c6ef57b95")
+		)
+		(instances
+			(project "flash_adapter"
+				(path "/65f072c3-aa87-49b8-9b79-625ca37fd95e"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 103.505 75.565 90)
 		(unit 1)
@@ -4144,6 +4310,84 @@
 			(project "flash_adapter"
 				(path "/65f072c3-aa87-49b8-9b79-625ca37fd95e"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 103.505 62.865 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "68bbe6be-c4b0-4f2c-9a22-ed6d202c7a1d")
+		(property "Reference" "R8"
+			(at 103.505 66.675 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 103.505 69.215 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 103.505 64.643 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 103.505 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 103.505 62.865 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bcb6171b-37f0-485e-96dd-784d4f7fa83c")
+		)
+		(pin "2"
+			(uuid "9dc59881-0cf7-4875-b23b-2de11c048fae")
+		)
+		(instances
+			(project "flash_adapter"
+				(path "/65f072c3-aa87-49b8-9b79-625ca37fd95e"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4455,6 +4699,83 @@
 			(project "flash_adapter"
 				(path "/65f072c3-aa87-49b8-9b79-625ca37fd95e"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 64.135 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "956bb3df-daa4-438b-a53e-242e8d4c15a3")
+		(property "Reference" "#PWR06"
+			(at 119.38 70.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 69.215 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 64.135 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0a32939-c278-4fc8-ab31-64fb947333c0")
+		)
+		(instances
+			(project "flash_adapter"
+				(path "/65f072c3-aa87-49b8-9b79-625ca37fd95e"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
