@@ -1,6 +1,6 @@
 <div align="center">
 
-# ESP32-Bit-Pirate-Dock
+# ESP32-Bit-Pirate-Hardware
 
 <a href="https://github.com/geo-tp/ESP32-Bit-Pirate">
   <img src="https://raw.githubusercontent.com/geo-tp/ESP32-Bit-Pirate/pioarduino/images/logo_protocols_banner_small.png" width="75%" alt="ESP32 Bit Pirate ecosystem banner" />
