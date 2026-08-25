@@ -757,7 +757,7 @@
 	(footprint "logo:logoBP"
 		(layer "F.Cu")
 		(uuid "b22bd737-9114-49b0-8db2-484580d2c03c")
-		(at 89.087466 77.419223)
+		(at 89.4 41.55)
 		(property "Reference" "G1"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -2273,6 +2273,110 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "logo:LOGO_USB"
+		(layer "F.Cu")
+		(uuid "b3ace029-a73b-4eaa-a943-b988199bacfe")
+		(at 89.545 65.61)
+		(property "Reference" "G2"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "470e7dc2-3d56-4786-a175-5d7a5276fe87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6171b896-11f0-4437-a3d4-391e79483c26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c6c55d0-1763-4d0f-8121-f55b450a2b6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e669e35b-4f87-451c-8171-c4104ea227de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/9be54fab-7616-4892-ae38-a9f960cf8c5e")
+		(sheetname "/")
+		(sheetfile "stamps3_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr smd exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -5.08 0)
+			(end 3.81 5.08)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "afe4466c-bd27-42e7-9644-bc87408f2016")
+		)
+		(fp_text user "USB"
+			(at -5.08 8.89 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "28deb472-b0c1-473a-9ffd-400dbd01710e")
+			(effects
+				(font
+					(size 2.54 2.4)
+					(thickness 0.25)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0c18d8b1-e924-4efb-9bf0-212db4754681")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical"
 		(locked yes)
 		(layer "B.Cu")
@@ -3225,7 +3329,7 @@
 		(uuid "c1611c15-b72c-498b-8743-66a88fe2985d")
 	)
 	(gr_text "${name}\nto Bit Pirate Dock\nV${version}"
-		(at 88.9508 38.735 0)
+		(at 88.89 33.4 0)
 		(layer "F.SilkS")
 		(uuid "c4649dfe-ae90-4baa-b9b6-3d2bc3f3a711")
 		(effects

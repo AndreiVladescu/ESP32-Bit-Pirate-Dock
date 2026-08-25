@@ -2075,6 +2075,110 @@
 			)
 		)
 	)
+	(footprint "logo:LOGO_USB"
+		(layer "F.Cu")
+		(uuid "ba2a639c-46b5-467c-ae85-198ca9893426")
+		(at 89.535 61.59)
+		(property "Reference" "G2"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8a471302-af36-4ff2-8982-7684d0cd7b76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "92057349-68f0-46ab-88a3-af14646ece1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32bf7bd6-849d-4432-8283-115f34c611dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "147a4b16-ba4a-47b8-8d01-05daf57b241c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/3c530128-7003-4d67-beab-e96601ac148f")
+		(sheetname "/")
+		(sheetfile "atoms3lite_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr smd exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -5.08 0)
+			(end 3.81 5.08)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "349533d5-5b02-405c-908a-3199732cd13e")
+		)
+		(fp_text user "USB"
+			(at -5.08 8.89 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "717adae2-d42a-4b59-bd5b-a8b1804b333b")
+			(effects
+				(font
+					(size 2.54 2.4)
+					(thickness 0.25)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8d591f61-35c0-4acf-a6d5-4d0a8bc624de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ed5904fb-9dcd-46d2-b58a-90d8eeaae976")
