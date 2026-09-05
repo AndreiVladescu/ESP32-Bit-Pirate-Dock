@@ -537,6 +537,110 @@
 			)
 		)
 	)
+	(footprint "logo:LOGO_USB"
+		(layer "F.Cu")
+		(uuid "36c395f7-c044-46ee-b404-041c7c7658a1")
+		(at 91.8 70.63)
+		(property "Reference" "G2"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1f92c3ac-faef-4a69-a639-b0badce5a533")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "03042185-3e7d-446b-9191-d6cac9e41e16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2dc77e59-2b19-48d6-8650-781e584fc44e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be5ba1b8-f104-44d5-aff3-59663c1da6c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/df7a3fe9-9efb-41cd-99ef-f8e87d1cf7c5")
+		(sheetname "/")
+		(sheetfile "wifilorav4_adapter.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr smd exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -5.08 0)
+			(end 3.81 5.08)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "79128823-a34f-4e7a-9357-7b330330dc67")
+		)
+		(fp_text user "USB"
+			(at -5.08 8.89 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "2aab3753-16bf-4ddd-b370-68886fc4ca59")
+			(effects
+				(font
+					(size 2.54 2.4)
+					(thickness 0.25)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "bd810182-3ac2-451d-9392-c287720736b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x18_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "46f5a3bb-eaf9-4895-a18f-2c76fc0354d5")
@@ -988,7 +1092,7 @@
 	(footprint "logo:logoBP"
 		(layer "F.Cu")
 		(uuid "4bb95555-22a4-42ff-a644-114b9b8c7a75")
-		(at 91.9226 77.47)
+		(at 91.868872 35.242152)
 		(property "Reference" "G1"
 			(at 0 -0.5 0)
 			(unlocked yes)
